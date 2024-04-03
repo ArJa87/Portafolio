@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-    background-color: rgb(6, 11, 87);
+    background-color: rgb(27, 27, 27);
     border-bottom: 2px solid white;
     position: fixed;
     top: 0rem;
@@ -46,36 +46,34 @@ ul.navigation {
 }
 
 ul.navigation a {
-    color: aquamarine;
+    color: whitesmoke;
     text-decoration: none;
-}
-
-ul.navigation a:hover {
-    color: darkblue;
+    font-weight: 400;
 }
 
 ul.navigation a:visited {
-    color: rgb(180, 98, 180);   
+    color: rgb(124, 71, 124);   
 }
 
 ul.navigation li {
     width: 5.5rem;
     text-align: center;
+    background-color: lightskyblue;
     border: 2px solid lightskyblue;
     padding: 0.2rem 0.2rem;
     margin: 0 0.2rem;
     border-radius: 0.5rem;
-    box-shadow: 0.2rem 0.2rem rgb(38, 90, 168);
+    box-shadow: 0.1rem 0.2rem rgb(38, 90, 168);
 }
 
 ul.navigation li:active {
-    /*margin: initial;*/
     margin-top: 0.3rem;
     box-shadow: none;
 }
 
 ul.navigation li:hover {
-    background-color: aquamarine;
+    background-color: rgb(38, 90, 168);
+    color: black;
 }
 
 header {
@@ -101,4 +99,43 @@ header h1 {
     text-align: center;
     margin: auto 1rem;
     text-shadow: 0.2rem 0.2rem 0.4rem slategray;
+}
+
+section.aboutme {
+    display: flex;
+}
+
+img.sidepic {
+    width: 40%;
+}
+
+img {
+    width: 100%;
+    padding: 2rem 2rem;
+}
+
+section.education {
+    display: flex;
+}
+
+ul.educationList {
+    list-style-position: inside;
+    list-style-type: "==> ";
+}
+
+ul.educationList li {
+    margin: 1rem auto;
+}
+
+section.skills {
+    display: flex;
+}
+
+ul.skillsList {
+    list-style-position: inside;
+    list-style-type: "==> ";
+}
+
+ul.skillsList li {
+    margin: 1rem auto;
 }
