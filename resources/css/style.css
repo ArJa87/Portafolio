@@ -139,3 +139,14 @@ ul.skillsList {
 ul.skillsList li {
     margin: 1rem auto;
 }
+
+section.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.contacts a {
+    color: white;
+    text-decoration: none;
+}
